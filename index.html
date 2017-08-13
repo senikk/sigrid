@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sigrid's store app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+    <sigrid></sigrid>
+       
+    <!-- riot -->
+    <script src="sigrid.tag" type="riot/tag"></script>
+    <script src="welcome.tag" type="riot/tag"></script>
+    <script src="movies.tag" type="riot/tag"></script>
+    <script src="drawing.tag" type="riot/tag"></script>
+    <script src="seeyousoon.tag" type="riot/tag"></script>
+    <script src="navigation.tag" type="riot/tag"></script>
+    <script src="https://cdn.jsdelivr.net/npm/riot@3.6.1/riot+compiler.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/riot-route/3.1.1/route.min.js"></script>
+
+    <!-- other -->
+    <script>
+        riot.mount('*');
+        route.start();
+    </script>
+</body>
+</html>

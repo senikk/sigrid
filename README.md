@@ -1,2 +1,2 @@
 # sigrid
-My daughter first app
+Sigrid's first app
